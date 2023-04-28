@@ -113,11 +113,11 @@ body{
 	visibility:hidden;
 	height:0;
   }
+
 nav ul {
 	display: grid;
 	grid-template-columns:repeat(4, 1fr);
-	position: absolute; 
-	align-content: center;
+	position: relative; 
   }
   nav a, #button {
 	font-family: 'Montserrat', sans-serif;
